@@ -14,7 +14,7 @@ public class SearchRequestController {
 
     @Autowired
     public SearchRequestController(NaverShopSearch naverShopSearch) {
-        this.naverShopSearch = naverShopSearch;;
+        this.naverShopSearch = naverShopSearch;
     }
 
     @GetMapping("/api/search")
